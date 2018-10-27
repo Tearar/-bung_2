@@ -1,16 +1,16 @@
+import baziCrypt.*;
+
+import java.io.UnsupportedEncodingException;
+
 public class Main {
 
-  public static void main(String[] args) {
 
-    Aufgabe1();
-    Aufgabe2();
-    // auskommentieren, was nicht benötigt wird
-  }
 
-  private static void Aufgabe1() {
-  }
+    public static void main(String[] args) throws UnsupportedEncodingException {
+        baziCrypt();
+    }
 
-  private static void Aufgabe2() {
-
-  }
+    private static void baziCrypt() throws UnsupportedEncodingException {
+        BaziCrypt.decryptBaziCryptFiles();
+    }
 }
